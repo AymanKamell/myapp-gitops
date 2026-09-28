@@ -9,3 +9,7 @@ resources:
   - backend-serviceaccount.yaml
   - role-app.yaml
   - rolebinding-app.yaml
+
+images:
+  - name: docker.io/aymankamell/myapp-backend
+    digest: sha256:dcee7775df41ceec29c154ec99f8982197ebc0417b76fb9165d277be29514834

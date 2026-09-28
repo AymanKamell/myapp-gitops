@@ -17,7 +17,7 @@ spec:
       automountServiceAccountToken: false    
       containers:
         - name: backend
-          image: docker.io/aymankamell/myapp-backend:0abdc314f8374e6758c4cc5264ad732fbe1c73b7
+          image: docker.io/aymankamell/myapp-backend
           ports:
             - containerPort: 8080
               name: http
