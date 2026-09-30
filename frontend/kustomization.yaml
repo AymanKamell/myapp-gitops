@@ -1,0 +1,13 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: myapp
+
+resources:
+  - frontend.yaml
+  - frontend-service.yaml
+  - frontend-route.yaml
+
+images:
+  - name: docker.io/aymankamell/myapp-frontend
+    digest: sha256:67edd732ba001e05730f97a836fc06dd18005b18c905e423f03c81f26b5f910d
