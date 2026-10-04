@@ -12,4 +12,4 @@ resources:
 
 images:
   - name: docker.io/aymankamell/myapp-backend
-    digest: sha256:9f791fa338815e84abab5fb2799a8f0870997c56f4327de779e36000174d7dd7
+    digest: sha256:733f2033c7f4e69aa870e9b158f8ad96e43b735df054919caca657d0c98287e2
